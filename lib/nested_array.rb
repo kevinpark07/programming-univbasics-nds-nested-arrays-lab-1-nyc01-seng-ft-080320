@@ -22,7 +22,8 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   #Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
-  return CONVENTIONAL_PRODUCE [1]
+  produce_storage_room.new [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  return produce_storage_room
   
 end
 
