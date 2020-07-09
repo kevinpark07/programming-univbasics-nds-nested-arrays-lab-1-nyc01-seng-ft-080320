@@ -1,6 +1,6 @@
 # Examples inspired by U. S. National Organic Standards
 
-ORGANIC_PRODUCE.global = [
+ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
   "Grapes",
@@ -8,7 +8,7 @@ ORGANIC_PRODUCE.global = [
   "Asparagus"
 ]
 
-CONVENTIONAL_PRODUCE.global = [
+CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
