@@ -1,6 +1,6 @@
 # Examples inspired by U. S. National Organic Standards
 
-organic_produce = [
+ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
   "Grapes",
@@ -8,7 +8,7 @@ organic_produce = [
   "Asparagus"
 ]
 
-conventional_produce = [
+CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
@@ -22,23 +22,7 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   #Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
-  organic_produce = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-
-conventional_produce = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-]
-  
-  produce_storage_room [conventional_produce, organic_produce]
+  produce_storage_room [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   
 end
 
